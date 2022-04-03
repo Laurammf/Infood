@@ -1,0 +1,138 @@
+ 
+ 
+
+body {overflow-x: hidden;
+  color: navy; font-size: 15px;
+}
+
+
+
+.offset:before {
+height: 4rem;
+margin-top: -3.8rem;
+content: "";
+display: block;
+}
+
+
+.navbar{
+text-transform: uppercase;
+font-weight: 700;
+font-size: .9rem;
+letter-spacing: .1rem;
+background: rgba(0, 0, 0, .6)!important;}
+
+.navbar-nav li { padding-right: .7rem;}
+
+.navbar-dark .navbar-nav .navbar-link {
+color: white;
+padding-top: .8rem;}
+
+.nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+color: #d392c8;
+} 
+
+
+
+.narrow {
+border-width: medium;
+border-radius: 0;
+padding: .6rem 1.1rem;
+margin: 1rem;
+}
+
+.jumbotron{
+background: rgba(255, 0, 0, 0.2)!important;}
+
+.heading {margin-bottom : 50px;}
+
+.carousel, .carousel-item { height: 360px; }
+
+.lead {background-color:rgba(255,0,0,0.08);
+outline: thick ridge pink ;
+padding: 25px;
+}
+
+.heading, h3 {
+font-family: 'Quantica', serif;
+text-align: center;
+}
+
+#paragraph {font-family: 'Roboto Slab', serif;
+font-size: 20px;
+
+}
+
+.bio {font-family: 'Roboto', serif;
+  font-size: 18px;
+
+
+}
+@media screen and (max-width: 600-px) {
+    .card-body {
+        float: none;
+        width: 100%;
+    }
+    
+}
+.parag-container, .ready, h3{ 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.btn-danger, .btn-info, .btn-success {min-width:300px;
+padding:30px;
+text-align: left;
+margin-bottom: 5px;
+color:black;
+background-color: rgba(255,0,0,0.22);
+}
+
+
+.makealine { 
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+
+.btn-danger  { background-color: rgba(255,0,0,0.3);}
+.btn-info  { background-color: rgba(0,0,128,0.3);}
+.btn-success { background-color: rgba(0,128,0,0.3);}
+
+.toAl {display: flex;
+align-items: center;
+justify-content: center;
+}
+footer{
+padding:20px;
+color:#000000;
+background-color:rgba(255,0,0,0.2);
+text-align: center;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #07b4df;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
